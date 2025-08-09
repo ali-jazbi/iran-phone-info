@@ -83,6 +83,9 @@ console.log(landlineInfo);
 
 این پروژه تحت لایسنس **MIT** منتشر شده است.
 
+### 📝 توسعه دهنده
+####  [👨‍💻 Ali Jazbi](https://github.com/ali-jazbi)
+
 -----
 
 ## 🇬🇧 English Version
@@ -153,7 +156,9 @@ The function returns an `object` or `null`.
 ### 🤝 Contributing
 
 Feel free to open an issue in the [**GitHub Issues**](https://github.com/ali-jazbi/phone-city-detector/issues) section if you have suggestions or encounter a bug.
-
 ### 📜 License
 
 This project is licensed under the **MIT** License.
+
+### 📝 Author
+####  [👨‍💻 Ali Jazbi](https://github.com/ali-jazbi)
