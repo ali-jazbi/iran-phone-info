@@ -1,5 +1,5 @@
 // Import the package from a CDN
-import { detectPhoneNumberInfo } from "../index.js";
+import { detectPhoneNumberInfo } from "./index.js";
 
 const phoneInput = document.getElementById("phoneInput");
 const resultDiv = document.getElementById("result");
