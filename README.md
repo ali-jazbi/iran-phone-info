@@ -1,5 +1,5 @@
 # 🕵️‍♂️ Detect Phone Number Info (Iran)
-[](https://www.npmjs.com/package/phone-city-detector)
+[](https://www.npmjs.com/package/iran-phone-info)
 [](https://opensource.org/licenses/MIT)
 
 یک پکیج ساده و سبک برای تشخیص اطلاعات شماره تلفن‌های ایران (موبایل و ثابت).
@@ -18,7 +18,7 @@ A simple and lightweight package for detecting information of Iranian phone numb
 
 ```bash
 # npm
-npm install phone-city-detector
+npm install iran-phone-info
 ```
 
 ### ✨ استفاده (Usage)
@@ -26,7 +26,7 @@ npm install phone-city-detector
 کار با این پکیج خیلی ساده‌ست. فقط کافیه تابع `detectPhoneNumberInfo` رو وارد کرده و شماره تلفن رو بهش بدید.
 
 ```javascript
-import { detectPhoneNumberInfo } from "phone-city-detector";
+import { detectPhoneNumberInfo } from "iran-phone-info";
 
 // --- مثال برای شماره موبایل ---
 const mobileNumber = "+989121234567";
@@ -77,7 +77,7 @@ console.log(landlineInfo);
 
 ### 🤝 مشارکت و گزارش خطا (Contributing)
 
-خوشحال میشم اگه پیشنهاد یا انتقادی دارید یا با خطایی مواجه شدید، اون رو از طریق بخش [**Issues در گیت‌هاب**](https://github.com/ali-jazbi/phone-city-detector/issues) مطرح کنید.
+خوشحال میشم اگه پیشنهاد یا انتقادی دارید یا با خطایی مواجه شدید، اون رو از طریق بخش [**Issues در گیت‌هاب**](https://github.com/ali-jazbi/iran-phone-info/issues) مطرح کنید.
 
 ### 📜 لایسنس (License)
 
@@ -96,7 +96,7 @@ A simple and lightweight package to detect information for Iranian phone numbers
 
 ```bash
 # npm
-npm install phone-city-detector
+npm install iran-phone-info
 ```
 
 ### ✨ Usage
@@ -104,7 +104,7 @@ npm install phone-city-detector
 Using the package is straightforward. Just import the `detectPhoneNumberInfo` function and pass the phone number string to it.
 
 ```javascript
-import { detectPhoneNumberInfo } from "phone-city-detector";
+import { detectPhoneNumberInfo } from "iran-phone-info";
 
 // --- Mobile Number Example ---
 const mobileNumber = "+989121234567";
@@ -155,7 +155,7 @@ The function returns an `object` or `null`.
 
 ### 🤝 Contributing
 
-Feel free to open an issue in the [**GitHub Issues**](https://github.com/ali-jazbi/phone-city-detector/issues) section if you have suggestions or encounter a bug.
+Feel free to open an issue in the [**GitHub Issues**](https://github.com/ali-jazbi/iran-phone-info/issues) section if you have suggestions or encounter a bug.
 ### 📜 License
 
 This project is licensed under the **MIT** License.
