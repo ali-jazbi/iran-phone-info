@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&display=swap");
+body {
+  font-family: "Vazirmatn", sans-serif;
+}
+::placeholder {
+  text-align: right;
+}
+.result-item {
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  transform: translateY(10px);
+}
+.result-item.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
