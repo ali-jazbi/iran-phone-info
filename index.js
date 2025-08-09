@@ -1,9 +1,38 @@
 import { phoneDatabase } from "./data.js";
 
+// Function to normalize Persian/Arabic digits to English digits
+function normalizeDigits(str) {
+  const persianDigits = "۰۱۲۳۴۵۶۷۸۹";
+  const arabicDigits = "٠١٢٣٤٥٦٧٨٩";
+  const englishDigits = "0123456789";
+
+  return str.replace(/[۰-۹٠-٩]/g, (digit) => {
+    const persianIndex = persianDigits.indexOf(digit);
+    const arabicIndex = arabicDigits.indexOf(digit);
+
+    if (persianIndex !== -1) {
+      return englishDigits[persianIndex];
+    }
+    if (arabicIndex !== -1) {
+      return englishDigits[arabicIndex];
+    }
+    return digit;
+  });
+}
+
 export function detectPhoneNumberInfo(phone) {
-  if (typeof phone !== "string" || !phone.match(/^[0-9+\s()-]+$/)) {
+  if (typeof phone !== "string") {
     return null;
   }
+
+  // Normalize Persian/Arabic digits to English digits first
+  phone = normalizeDigits(phone);
+
+  // Now check if it contains valid characters (after normalization)
+  if (!phone.match(/^[0-9+\s()-]+$/)) {
+    return null;
+  }
+
   // Remove all spaces and dashes
   let clean = phone.replace(/[\s-()]/g, "");
 
