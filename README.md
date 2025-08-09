@@ -8,7 +8,7 @@ A simple and lightweight package for detecting information of Iranian phone numb
 
 -----
 
-[**English Document**](https://www.google.com/search?q=%23-english-version)
+[**English Document**](#-english-version)
 
 ## 🇮🇷 نسخه فارسی
 
