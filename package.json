@@ -1,0 +1,24 @@
+{
+  "name": "phone-city-detector",
+  "version": "1.0.3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "description": "تشخیص شهر یا اپراتور از روی پیش‌شماره ایران",
+  "type": "module",
+  "keywords": [
+    "iran",
+    "persian",
+    "phone",
+    "lookup",
+    "city",
+    "operator",
+    "prefix",
+    "landline",
+    "mobile",
+    "mobilephone"
+  ],
+  "author": "Ali Jazbi",
+  "license": "MIT"
+}
