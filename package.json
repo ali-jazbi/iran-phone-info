@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "description": "تشخیص شهر یا اپراتور از روی پیش‌شماره ایران",
+  "description": "A simple and lightweight package to detect information for Iranian phone numbers (mobile and landline).",
   "type": "module",
   "keywords": [
     "iran",
