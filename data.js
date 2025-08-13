@@ -26,7 +26,6 @@ export const phoneDatabase = {
     937: "Irancell",
     938: "Irancell",
     939: "Irancell",
-    900: "Irancell",
     901: "Irancell",
     902: "Irancell",
     903: "Irancell",

@@ -14,3 +14,17 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+#tooltip-container:hover #tooltip-content,
+#tooltip-toggle:focus + #tooltip-content {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-150%, 310px); /* Move it up on show */
+}
+/* Tooltip Styles */
+@media (max-width: 768px) {
+  #tooltip-container:hover #tooltip-content,
+  #tooltip-toggle:focus + #tooltip-content {
+    transform: translate(0%, 70%) !important;
+    z-index: 999;
+  }
+}
