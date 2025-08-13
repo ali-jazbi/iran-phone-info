@@ -33,7 +33,10 @@ export const phoneDatabase = {
     904: "Irancell",
     905: "Irancell",
     941: "Irancell",
-    999: "Shatel Mobile",
+    998: "Shatel Mobile",
+    9999: "Samantel Mobile",
+    9991: "Aptel",
+    99914: "Azartel",
   },
   landline: {
     41: "Tabriz",
